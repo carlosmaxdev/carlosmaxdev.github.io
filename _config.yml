@@ -8,8 +8,9 @@ baseurl: "/"
 url: "https://carlosmaxdev.github.io/"
 twitter_username: carlosmaxdev
 github_username:  carlosmaxdev
-facebook_username:  
-email_username:  carlosmax.dev
+facebook_username: 
+linkedin_username: carlos-max
+email_username:  carlosmax.dev@hotmail.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
