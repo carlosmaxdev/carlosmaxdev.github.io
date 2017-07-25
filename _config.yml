@@ -13,8 +13,7 @@ linkedin_username: carlos-max
 email_username:  carlosmax.dev@hotmail.com
 
 # Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
-# google_tracking_id:
+google_tracking_id: UA-102963825-1
 
 # Build settings
 markdown: kramdown
