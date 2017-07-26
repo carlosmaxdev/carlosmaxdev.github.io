@@ -50,10 +50,8 @@ layout: default
   <div class="row">
     <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">    
       <!-- Disqus -->
-      {% if site.disqus_shortname and page.comments != 'false' %}
-        {% if jekyll.environment == "production" %}
-          {% include disqus_thread.html %}
-        {% endif %}
+      {% if site.disqus_shortname and page.comments != 'false' %}        
+          {% include disqus_thread.html %}        
       {% endif %}
     </div><!-- /.col-* -->
   </div><!-- /.row -->
