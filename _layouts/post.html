@@ -24,9 +24,7 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
 				{{ content }}
-
                 <hr>
 
                 <ul class="pager">
@@ -46,5 +44,19 @@ layout: default
         </div>
     </div>
 </article>
+
+<!-- Post footer section -->
+<section class="container postFooter-section">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">    
+      <!-- Disqus -->
+      {% if site.disqus_shortname and page.comments != 'false' %}
+        {% if jekyll.environment == "production" %}
+          {% include disqus_thread.html %}
+        {% endif %}
+      {% endif %}
+    </div><!-- /.col-* -->
+  </div><!-- /.row -->
+</section><!-- /.container -->
 
 <hr>
