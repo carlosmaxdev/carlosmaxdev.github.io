@@ -461,3 +461,61 @@ img::-moz-selection {
 body {
 	webkit-tap-highlight-color: @brand-primary;
 }
+
+.postFooter {
+  padding-top: 20px;
+}
+
+.postFooter-metaAcknowledgments {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-size: 13px;
+  line-height: 1.2;
+  color: rgba(0,0,0,.44);
+
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .icon-cc-by {
+    margin-left: 4px;
+    font-size: 21px;
+    vertical-align: bottom;
+  }
+}
+
+// Disqus commenting system
+
+.comments {
+  padding-top: 30px;
+  margin-bottom: 80px;
+  overflow-x: hidden;
+  border-top: 1px solid rgba(0,0,0,.1);
+
+  @media (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
+  a {
+    color: #3f4549;
+
+    &:hover,
+    &:focus {
+      color: darken(#3f4549, 6.5%);
+    }
+  }
+}
+
+.btn-disqus {
+  display: block;
+  width: 100%;
+  padding: 13px;
+  font-size: 13px;
+  border-radius: 4px;
+
+  .svg-icon {
+    margin-right: .6em;
+  }
+}
